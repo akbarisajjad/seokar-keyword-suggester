@@ -1,16 +1,16 @@
 === سئوکار پیشنهاد کلمه کلیدی (Seokar Keyword Suggester) ===
-Contributors: Sajjad Akbari  
-Tags: AI, SEO, Keywords, OpenAI, Meta Description, WordPress  
-Requires at least: 5.5  
-Tested up to: 6.4  
-Requires PHP: 7.4  
-Stable tag: 1.0.0  
-License: GPL v2 or later  
-License URI: https://www.gnu.org/licenses/gpl-2.0.html  
-Plugin URI: https://seokar.click  
-Author URI: https://sajjadakbari.ir  
+Contributors: Sajjad Akbari
+Tags: AI, SEO, Keywords, OpenAI, Meta Description, WordPress
+Requires at least: 5.5
+Tested up to: 6.4
+Requires PHP: 7.4
+Stable tag: 1.0.0
+License: GPL v2 or later
+License URI: https://www.gnu.org/licenses/gpl-2.0.html
+Plugin URI: https://seokar.click
+Author URI: https://sajjadakbari.ir
 
-افزونه‌ای هوشمند برای پیشنهاد کلمات کلیدی، عنوان و توضیحات متا با استفاده از OpenAI.  
+افزونه‌ای هوشمند برای پیشنهاد کلمات کلیدی، عنوان و توضیحات متا با استفاده از OpenAI.
 
 == Description ==  
 **🚀 هوش مصنوعی OpenAI برای سئو بهتر وردپرس!**  
