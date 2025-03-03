@@ -1,40 +1,21 @@
 jQuery(document).ready(function($) {
-    $('#get-suggestions').click(function() {
-        var postId = $('#post_ID').val();
-        var content = $('#content').val() || $('#excerpt').val();
+    // نمایش پیام بعد از ذخیره تنظیمات
+    if (window.location.href.includes("&status=success")) {
+        $('.wrap h1').after('<div class="updated notice"><p>تنظیمات با موفقیت ذخیره شد!</p></div>');
+    }
 
-        if (!content) {
-            alert("لطفاً محتوای نوشته را وارد کنید.");
-            return;
+    // تأیید تغییر API Key
+    $('#seokar_api_key').on('change', function() {
+        var confirmChange = confirm("آیا مطمئن هستید که می‌خواهید کلید API را تغییر دهید؟ تنظیمات شما ممکن است تحت تأثیر قرار بگیرند.");
+        if (!confirmChange) {
+            $(this).val($(this).data('original-value'));
+        } else {
+            $(this).data('original-value', $(this).val());
         }
+    });
 
-        $('#suggestions-results').html("<p>در حال دریافت پیشنهادات...</p>");
-
-        $.ajax({
-            url: seokar_ajax.ajax_url,
-            type: 'POST',
-            data: {
-                action: 'get_ai_suggestions',
-                content: content,
-                post_id: postId,
-                nonce: $('#seokar_suggester_nonce').val()
-            },
-            success: function(response) {
-                if (response.success) {
-                    var suggestions = response.data;
-                    var output = "<ul>";
-                    suggestions.forEach(function(suggestion) {
-                        output += "<li class='suggestion-item'>" + suggestion + "</li>";
-                    });
-                    output += "</ul>";
-                    $('#suggestions-results').html(output);
-                } else {
-                    $('#suggestions-results').html("<p style='color:red;'>" + response.data + "</p>");
-                }
-            },
-            error: function() {
-                $('#suggestions-results').html("<p style='color:red;'>خطایی رخ داد. لطفاً دوباره امتحان کنید.</p>");
-            }
-        });
+    // تأیید تغییر زبان
+    $('#seokar_language').on('change', function() {
+        alert("توجه: تغییر زبان ممکن است بر پیشنهادات دریافتی تأثیر بگذارد.");
     });
 });
