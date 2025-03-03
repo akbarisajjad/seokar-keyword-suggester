@@ -1,45 +1,55 @@
 #ai-suggestions {
-    padding: 10px;
+    padding: 15px;
     background: #f9f9f9;
     border: 1px solid #ddd;
-    border-radius: 5px;
+    border-radius: 8px;
     text-align: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease-in-out;
+}
+
+#ai-suggestions:hover {
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
 }
 
 #ai-suggestions button {
     background: #0073aa;
     color: #fff;
     border: none;
-    padding: 8px 12px;
+    padding: 10px 15px;
     font-size: 14px;
-    border-radius: 4px;
+    border-radius: 6px;
     cursor: pointer;
-    transition: 0.3s;
+    transition: background 0.3s, transform 0.2s;
 }
 
 #ai-suggestions button:hover {
     background: #005177;
+    transform: scale(1.05);
 }
 
 #suggestions-results {
-    margin-top: 10px;
-    padding: 8px;
+    margin-top: 12px;
+    padding: 10px;
     background: #fff;
     border: 1px solid #ddd;
-    border-radius: 4px;
+    border-radius: 6px;
     text-align: left;
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.08);
 }
 
 .suggestion-item {
-    padding: 5px;
+    padding: 8px;
     border-bottom: 1px solid #ddd;
+    font-size: 14px;
+    color: #333;
+    transition: background 0.2s;
+}
+
+.suggestion-item:hover {
+    background: #f0f0f0;
 }
 
 .suggestion-item:last-child {
     border-bottom: none;
-}
-
-strong {
-    font-size: 14px;
-    color: #333;
 }
