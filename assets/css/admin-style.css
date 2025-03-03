@@ -1,0 +1,52 @@
+.wrap h1 {
+    color: #0073aa;
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+.form-table th {
+    font-weight: bold;
+    text-align: left;
+    padding: 10px 0;
+}
+
+.form-table td {
+    padding: 10px 0;
+}
+
+.form-table input[type="text"],
+.form-table select {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.form-table input[type="checkbox"] {
+    transform: scale(1.2);
+}
+
+.submit {
+    margin-top: 15px;
+}
+
+.submit .button-primary {
+    background: #0073aa;
+    color: #fff;
+    padding: 10px 15px;
+    font-size: 14px;
+    border-radius: 5px;
+    transition: background 0.3s ease-in-out;
+}
+
+.submit .button-primary:hover {
+    background: #005177;
+}
+
+.updated.notice {
+    border-left: 4px solid #0073aa;
+    background: #f8f9fa;
+    padding: 10px;
+    margin-top: 10px;
+}
