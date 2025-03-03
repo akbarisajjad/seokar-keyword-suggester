@@ -1,0 +1,100 @@
+# تنظیمات افزونه
+msgid "Seokar Keyword Suggester Settings"
+msgstr "تنظیمات پیشنهاد کلمه کلیدی سئوکار"
+
+msgid "Enter your OpenAI API Key"
+msgstr "کلید API خود را از OpenAI وارد کنید"
+
+msgid "Save Settings"
+msgstr "ذخیره تنظیمات"
+
+msgid "Automatically Save Keywords to Metadata"
+msgstr "ذخیره خودکار کلمات کلیدی در متادیتا"
+
+msgid "Select Language for Suggestions"
+msgstr "انتخاب زبان برای پیشنهادات"
+
+msgid "Detect Automatically"
+msgstr "تشخیص خودکار"
+
+msgid "Persian (Farsi)"
+msgstr "فارسی"
+
+msgid "English"
+msgstr "انگلیسی"
+
+msgid "Arabic"
+msgstr "عربی"
+
+msgid "German"
+msgstr "آلمانی"
+
+msgid "French"
+msgstr "فرانسوی"
+
+msgid "Save API Key to enable AI suggestions"
+msgstr "برای فعال‌سازی پیشنهادات هوش مصنوعی، کلید API را ذخیره کنید"
+
+# متاباکس پیشنهادات در ویرایشگر وردپرس
+msgid "AI Suggestions"
+msgstr "پیشنهادات هوش مصنوعی"
+
+msgid "Get AI Suggestions"
+msgstr "دریافت پیشنهادات هوش مصنوعی"
+
+msgid "Loading suggestions..."
+msgstr "در حال دریافت پیشنهادات..."
+
+msgid "No suggestions available."
+msgstr "هیچ پیشنهادی یافت نشد."
+
+msgid "Suggested Keywords"
+msgstr "کلمات کلیدی پیشنهادی"
+
+msgid "Suggested SEO Title"
+msgstr "عنوان پیشنهادی برای سئو"
+
+msgid "Suggested Meta Description"
+msgstr "توضیحات متا پیشنهادی"
+
+# پیام‌های خطا و اطلاع‌رسانی
+msgid "Error: Invalid API Key."
+msgstr "خطا: کلید API نامعتبر است."
+
+msgid "Error connecting to OpenAI API."
+msgstr "خطا در اتصال به API OpenAI."
+
+msgid "Please enter content to get suggestions."
+msgstr "لطفاً محتوا را وارد کنید تا پیشنهادات دریافت شوند."
+
+msgid "Settings saved successfully!"
+msgstr "تنظیمات با موفقیت ذخیره شد!"
+
+# راهنما و اطلاع‌رسانی
+msgid "How to get an OpenAI API Key?"
+msgstr "چگونه یک کلید API از OpenAI دریافت کنیم؟"
+
+msgid "1. Go to OpenAI website and sign up."
+msgstr "۱. به وب‌سایت OpenAI بروید و ثبت‌نام کنید."
+
+msgid "2. Navigate to API Keys section."
+msgstr "۲. به بخش API Keys بروید."
+
+msgid "3. Generate a new API Key and copy it here."
+msgstr "۳. یک کلید API جدید ایجاد کنید و در اینجا وارد کنید."
+
+msgid "Check OpenAI pricing details."
+msgstr "جزئیات قیمت‌گذاری OpenAI را بررسی کنید."
+
+# دکمه‌ها و پیام‌های اضافی
+msgid "Refresh Suggestions"
+msgstr "بروزرسانی پیشنهادات"
+
+msgid "Manually Add Keywords"
+msgstr "افزودن دستی کلمات کلیدی"
+
+msgid "Keyword saved successfully!"
+msgstr "کلمه کلیدی با موفقیت ذخیره شد!"
+
+msgid "Delete all saved suggestions"
+msgstr "حذف تمامی پیشنهادات ذخیره‌شده"
