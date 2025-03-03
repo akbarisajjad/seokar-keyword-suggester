@@ -1,0 +1,15 @@
+seokar-keyword-suggester/
+└── languages/
+    ├── seokar-keyword-suggester-es_ES.po
+    ├── seokar-keyword-suggester-fr_FR.po
+    ├── seokar-keyword-suggester-de_DE.po
+    ├── seokar-keyword-suggester-ar.po
+    ├── seokar-keyword-suggester-ru_RU.po
+    ├── seokar-keyword-suggester-it_IT.po
+    ├── seokar-keyword-suggester-tr_TR.po
+    ├── seokar-keyword-suggester-pt_PT.po
+    ├── seokar-keyword-suggester-nl_NL.po
+    ├── seokar-keyword-suggester-zh_CN.po
+    ├── seokar-keyword-suggester-hi_IN.po
+    ├── seokar-keyword-suggester-ja_JP.po
+    ├── seokar-keyword-suggester-ko_KR.po
