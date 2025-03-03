@@ -1,15 +1,114 @@
-seokar-keyword-suggester/
-└── languages/
-    ├── seokar-keyword-suggester-es_ES.po
-    ├── seokar-keyword-suggester-fr_FR.po
-    ├── seokar-keyword-suggester-de_DE.po
-    ├── seokar-keyword-suggester-ar.po
-    ├── seokar-keyword-suggester-ru_RU.po
-    ├── seokar-keyword-suggester-it_IT.po
-    ├── seokar-keyword-suggester-tr_TR.po
-    ├── seokar-keyword-suggester-pt_PT.po
-    ├── seokar-keyword-suggester-nl_NL.po
-    ├── seokar-keyword-suggester-zh_CN.po
-    ├── seokar-keyword-suggester-hi_IN.po
-    ├── seokar-keyword-suggester-ja_JP.po
-    ├── seokar-keyword-suggester-ko_KR.po
+msgid ""
+msgstr ""
+"Project-Id-Version: Seokar Keyword Suggester 1.0.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-03-02 12:00+0000\n"
+"PO-Revision-Date: 2025-03-02 12:00+0000\n"
+"Last-Translator: Sajjad Akbari\n"
+"Language-Team: Seokar <sajjadakbari@dr.com>\n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: seokar\n"
+
+# Plugin Settings
+msgid "Seokar Keyword Suggester Settings"
+msgstr "Seokar Keyword Suggester Settings"
+
+msgid "Enter your OpenAI API Key"
+msgstr "Enter your OpenAI API Key"
+
+msgid "Save Settings"
+msgstr "Save Settings"
+
+msgid "Automatically Save Keywords to Metadata"
+msgstr "Automatically Save Keywords to Metadata"
+
+msgid "Select Language for Suggestions"
+msgstr "Select Language for Suggestions"
+
+msgid "Detect Automatically"
+msgstr "Detect Automatically"
+
+msgid "Persian (Farsi)"
+msgstr "Persian (Farsi)"
+
+msgid "English"
+msgstr "English"
+
+msgid "Arabic"
+msgstr "Arabic"
+
+msgid "German"
+msgstr "German"
+
+msgid "French"
+msgstr "French"
+
+msgid "Save API Key to enable AI suggestions"
+msgstr "Save API Key to enable AI suggestions"
+
+# Metabox Suggestions in WordPress Editor
+msgid "AI Suggestions"
+msgstr "AI Suggestions"
+
+msgid "Get AI Suggestions"
+msgstr "Get AI Suggestions"
+
+msgid "Loading suggestions..."
+msgstr "Loading suggestions..."
+
+msgid "No suggestions available."
+msgstr "No suggestions available."
+
+msgid "Suggested Keywords"
+msgstr "Suggested Keywords"
+
+msgid "Suggested SEO Title"
+msgstr "Suggested SEO Title"
+
+msgid "Suggested Meta Description"
+msgstr "Suggested Meta Description"
+
+# Error and Notification Messages
+msgid "Error: Invalid API Key."
+msgstr "Error: Invalid API Key."
+
+msgid "Error connecting to OpenAI API."
+msgstr "Error connecting to OpenAI API."
+
+msgid "Please enter content to get suggestions."
+msgstr "Please enter content to get suggestions."
+
+msgid "Settings saved successfully!"
+msgstr "Settings saved successfully!"
+
+# Help and Information
+msgid "How to get an OpenAI API Key?"
+msgstr "How to get an OpenAI API Key?"
+
+msgid "1. Go to OpenAI website and sign up."
+msgstr "1. Go to OpenAI website and sign up."
+
+msgid "2. Navigate to API Keys section."
+msgstr "2. Navigate to API Keys section."
+
+msgid "3. Generate a new API Key and copy it here."
+msgstr "3. Generate a new API Key and copy it here."
+
+msgid "Check OpenAI pricing details."
+msgstr "Check OpenAI pricing details."
+
+# Additional Buttons and Messages
+msgid "Refresh Suggestions"
+msgstr "Refresh Suggestions"
+
+msgid "Manually Add Keywords"
+msgstr "Manually Add Keywords"
+
+msgid "Keyword saved successfully!"
+msgstr "Keyword saved successfully!"
+
+msgid "Delete all saved suggestions"
+msgstr "Delete all saved suggestions"
