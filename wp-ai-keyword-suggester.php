@@ -1,6 +1,6 @@
 <?php
 /**
- * Plugin Name: سئوکار پیشنهاد کلمه کلیدی
+ * Plugin Name: keyword suggester
  * Plugin URI: https://seokar.click
  * Description: افزونه‌ای برای پیشنهاد کلمات کلیدی، عنوان و متا دیسکریپشن برای نوشته‌ها و محصولات وردپرس با استفاده از OpenAI.
  * Version: 1.0.0
