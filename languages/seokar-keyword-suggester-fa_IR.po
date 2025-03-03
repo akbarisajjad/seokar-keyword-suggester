@@ -11,12 +11,13 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: seokar\n"
+
 # تنظیمات افزونه
 msgid "Seokar Keyword Suggester Settings"
-msgstr "تنظیمات پیشنهاد کلمه کلیدی سئوکار"
+msgstr "تنظیمات پیشنهاددهنده کلمات کلیدی سئوکار"
 
 msgid "Enter your OpenAI API Key"
-msgstr "کلید API خود را از OpenAI وارد کنید"
+msgstr "کلید API OpenAI خود را وارد کنید"
 
 msgid "Save Settings"
 msgstr "ذخیره تنظیمات"
@@ -25,7 +26,7 @@ msgid "Automatically Save Keywords to Metadata"
 msgstr "ذخیره خودکار کلمات کلیدی در متادیتا"
 
 msgid "Select Language for Suggestions"
-msgstr "انتخاب زبان برای پیشنهادات"
+msgstr "زبان پیشنهادات را انتخاب کنید"
 
 msgid "Detect Automatically"
 msgstr "تشخیص خودکار"
@@ -59,13 +60,13 @@ msgid "Loading suggestions..."
 msgstr "در حال دریافت پیشنهادات..."
 
 msgid "No suggestions available."
-msgstr "هیچ پیشنهادی یافت نشد."
+msgstr "هیچ پیشنهادی موجود نیست."
 
 msgid "Suggested Keywords"
 msgstr "کلمات کلیدی پیشنهادی"
 
 msgid "Suggested SEO Title"
-msgstr "عنوان پیشنهادی برای سئو"
+msgstr "عنوان سئو پیشنهادی"
 
 msgid "Suggested Meta Description"
 msgstr "توضیحات متا پیشنهادی"
@@ -91,7 +92,7 @@ msgid "1. Go to OpenAI website and sign up."
 msgstr "۱. به وب‌سایت OpenAI بروید و ثبت‌نام کنید."
 
 msgid "2. Navigate to API Keys section."
-msgstr "۲. به بخش API Keys بروید."
+msgstr "۲. به بخش کلیدهای API بروید."
 
 msgid "3. Generate a new API Key and copy it here."
 msgstr "۳. یک کلید API جدید ایجاد کنید و در اینجا وارد کنید."
@@ -110,4 +111,4 @@ msgid "Keyword saved successfully!"
 msgstr "کلمه کلیدی با موفقیت ذخیره شد!"
 
 msgid "Delete all saved suggestions"
-msgstr "حذف تمامی پیشنهادات ذخیره‌شده"
+msgstr "حذف تمام پیشنهادات ذخیره‌شده"
